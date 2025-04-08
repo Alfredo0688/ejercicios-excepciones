@@ -7,7 +7,7 @@ valor2 = 0
 try:
     resultado = valor1 / valor2
 except ZeroDivisionError as e:
-    print(f"El número no puede dividirse por 0 : {e}")
+    print(f"El número {valor1} no puede dividirse por 0 : {e}")
 
 except TypeError as e:
     print(f"Los valores que intervienen en la división deben ser númericos : {e}")
